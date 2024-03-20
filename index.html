@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  overflow-x: hidden;
+}
+h1{
+  padding: 30px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 30px;
+  
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.player
+{
+  margin: 10px 20px;
+  
+  width: 300px;
+  height: 150px;
+  background-color: #333;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.player:hover
+ {
+  transform: translateY(-5px);
+}
+
+.player button
+ {
+  width: 100%;
+  height: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.player button:hover
+ {
+  background-color: #45a049;
+}
+
+</style>
+
+</head>
+<body>
+  <h1>Select the game mode</h1>
+    <div class="container">
+      
+
+  <div class="player">
+   <a href="./player.html"> <button > 2 Player Mode</button></a>
+  </div>
+
+ </div>
+
+</body>
+</html>
